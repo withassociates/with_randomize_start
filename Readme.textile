@@ -1,0 +1,17 @@
+h1. With Randomize Start
+
+<pre>
+<code>
+>> array = %w(a b c d e)
+=> ["a", "b", "c", "d", "e"]
+>> array.randomize_start
+=> ["c", "d", "e", "a", "b"]
+>> array.randomize_start
+=> ["e", "a", "b", "c", "d"]
+>> array.randomize_start
+=> ["a", "b", "c", "d", "e"]
+>> array.randomize_start
+=> ["c", "d", "e", "a", "b"]
+>> 
+</code>
+</pre>

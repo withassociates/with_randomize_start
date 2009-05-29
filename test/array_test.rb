@@ -6,7 +6,6 @@ class ArrayTest < Test::Unit::TestCase
 
     setup do
       @array = %w(a b c d e)
-      puts "hello"
     end
 
     should "array size of 1" do
